@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form Example: Registration Form</title>
+</head>
+<style>
+    .container-1 {
+        margin-bottom: 20px;
+    }
+
+    .container-2 {
+        margin-bottom: 50px;
+    }
+</style>
+<body>
+    <nav>
+        <a href="latihan3.html">back</a>
+    </nav>
+<div class="container-1">
+    <h1>HTML Form Example: Registration Form</h1>
+    <p>Create a new account.</p>
+        <table border="1">
+            <tr>
+                <td><label for="first_name">First Name:</label></td>
+                <td><input type="text" id="first_name" name="first_name" value="first name"></td>
+                
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input type="text" id="last_name" name="last_name" value="last name"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile_number">Mobile Number:</label></td>
+                <td><input type="text" id="mobile_number" name="mobile_number" value="NIM"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" value=""></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Address:</label></td>
+                <td><input type="email" id="email" name="email" value="@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="birthday">Birthday:</label></td>
+                <td><input type="date" id="birthday" name="birthday" value="2000-03-17"></td>
+            </tr>
+            <tr>
+                <td><label for="program_of_study">Program of Study:</label></td>
+                <td>
+                    <select id="program_of_study" name="program_of_study">
+                        <option value="sistem_informasi" selected>Sistem Informasi</option>
+                        <option value="Informatika">Informatika</option>
+                        <option value="Filsafat">Filsafat</option>
+                        <option value="Perawat">Perawat</option>
+                        <option value="Ekonomi">Ekonomi</option>
+                        <option value="Teknik">Teknik</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobby:</label></td>
+                <td>
+                    <input type="checkbox" id="programming" name="hobby" value="programming" checked>
+                    <label for="programming">Programming</label><br>
+                    <input type="checkbox" id="database" name="hobby" value="database" checked>
+                    <label for="database">Database</label><br>
+                    <input type="checkbox" id="networking" name="hobby" value="networking">
+                    <label for="networking">Networking</label><br>
+                    <input type="checkbox" id="security" name="hobby" value="security">
+                    <label for="security">Security</label><br>
+                    <input type="checkbox" id="multimedia" name="hobby" value="multimedia">
+                    <label for="multimedia">Multimedia</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Register</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+    <hr>
+    <div class="container-2">
+        <title>HTML Form Example: Registration Form</title>
+        <h2>HTML Form Example: Registration Form</h2>
+        <p>Create a new account.</p>
+            <table border="1">
+                <tr>
+                    <td><label for="first_name">First Name:</label></td>
+                    <td><input type="text" id="first_name" name="first_name"></td>
+                    <td><label for="last_name">Last Name:</label></td>
+                    <td><input type="text" id="last_name" name="last_name"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile_number">Mobile Number:</label></td>
+                    <td><input type="text" id="mobile_number" name="mobile_number"></td>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                    <td><label for="birthday">Birthday:</label></td>
+                    <td><input type="date" id="birthday" name="birthday"></td>
+                </tr>
+                <tr>
+                    <td><label for="program_of_study">Program of Study:</label></td>
+                    <td>
+                        <select id="program_of_study" name="program_of_study">
+                            <option value="informatika">Informatika</option>
+                            <option value="sistem_informasi">Sistem Informasi</option>
+                            <option value="filsafat">Filsafat</option>
+                            <option value="perawat">Perawat</option>
+                            <option value="ekonomi">Ekonomi</option>
+                            <option value="teknik">Teknik</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobby:</td>
+                    <td colspan="3">
+                        <input type="checkbox" id="programming" name="hobby" value="programming">
+                        <label for="programming">Programming</label>
+                        <input type="checkbox" id="database" name="hobby" value="database">
+                        <label for="database">Database</label>
+                        <input type="checkbox" id="networking" name="hobby" value="networking">
+                        <label for="networking">Networking</label>
+                        <input type="checkbox" id="security" name="hobby" value="security">
+                        <label for="security">Security</label>
+                        <input type="checkbox" id="multimedia" name="hobby" value="multimedia">
+                        <label for="multimedia">Multimedia</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <button type="submit">Register</button>
+                    </td>
+                </tr>
+            </table>
+        </form> 
+    </div>
+</body>
+</html>
