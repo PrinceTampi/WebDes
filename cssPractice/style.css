@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
-    color: rgb(90, 50, 253);
+    color: rgb(0, 0, 0);
 }
 
 li {
@@ -19,4 +19,84 @@ th, td {
     font-size: 90%;
     margin: 0px;
     text-align: center;
+    background-color: rgb(190, 190, 250);
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    border-right: 2px solid rgb(185, 185, 185);
+}
+
+tr.head th {
+    background-color: rgb(27, 105, 221);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid rgb(2, 71, 150);
+    border-top: 1px solid black;
+    text-shadow: -1px -1px 1px black;
+    letter-spacing: 0.15em;
+}
+
+.title {
+    text-align: center;
+}
+
+td {
+    text-shadow: 1px 1px 1px white;
+}
+
+tr.event td, tr.event th {
+    background-color: rgb(146, 153, 252);
+}
+
+tr.head th:first-child {
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    border-top-right-radius: 5px;
+}
+
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: white;
+    line-height: 1.6em;
+}
+
+legend {
+    text-align: center;
+    font-style: italic;
+    color: rgb(54, 54, 54);
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 2px;
+    outline: none;
+}
+
+input[type="text"]:focus, input[tpye="text"]:hover {
+    background-color: rgb(194, 220, 255);
+    border: 1px solid rgb(117, 0, 0);
+}
+
+input[type="submit"] {
+    border: 1px solid green;
+    background-color: rgb(37, 155, 37);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+    margin-bottom: 100px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid green;
+    background-color: rgb(133, 253, 149);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
