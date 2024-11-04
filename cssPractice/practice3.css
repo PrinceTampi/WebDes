@@ -1,0 +1,102 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.small {
+    margin-top: 0;
+    font-size: 13px;
+    color: #8e8c8c;
+}
+
+
+.form-content {
+ padding: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 280px;
+    height: 25px;
+    border: 1px solid rgb(125, 124, 124);
+    padding: 2px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    border: 1px solid rgb(0, 85, 221);
+}
+
+p, a {
+    text-decoration: none;
+}
+
+.submit {
+    background-color: rgb(55, 55, 255);
+    color: white;
+    border: none;
+    padding: 5px 5px 3px 5px;
+    width: 290px;
+    height: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submit:hover {
+    background-color: rgb(93, 93, 250);
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider span {
+    padding: 0 10px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #ccc;
+}
+
+.social {
+    border: none;
+    padding: 5px 5px 3px 5px;
+    width: 290px;
+    height: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social:hover {
+    background-color: #ccc;
+}
+
+footer {
+    background-color: none;
+    padding: 5px;
+    text-align: center;
+}
