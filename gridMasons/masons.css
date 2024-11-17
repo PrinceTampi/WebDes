@@ -1,0 +1,88 @@
+/* Reset basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header and navigation styles */
+  header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+  }
+  
+  header nav a:hover {
+    color: #f1c40f;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  
+  /* Masonry Grid Layout */
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  main div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  main div img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  main .short {
+    height: auto;
+  }
+  
+  main .tall {
+    height: auto;
+  }
+  
+  main a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive footer */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #6c63ff;
+    color: white;
+    margin-top: 1rem;
+  }
+  

@@ -4,20 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDesign</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #6c63ff;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #333;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #6c63ff;
+        }
+        main {
+            padding: 2rem;
+            max-width: 960px;
+            margin: auto;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>My WebDesign Library</h1>
-    <hr>
+    <header>
+        <h1>My WebDesign Library</h1>
+    </header>
     <nav>
         <ul>
-            <li><a href="Cooking/resep/latihan1.html">Latihan Anchor link</a></li>
-            <li><a href="Table/latihan2.html">Latihan Table</a></li>
-            <li><a href="form/latihan3.html">Latihan Form</a></li>
-            <li><a href="cssPractice/css-practice1.html">Latihan CSS</a></li>
+            <li><a href="Cooking/resep/latihan1.html">Anchor Link</a></li>
+            <li><a href="Table/latihan2.html">Table</a></li>
+            <li><a href="form/latihan3.html">Form</a></li>
+            <li><a href="cssPractice/css-practice1.html">CSS</a></li>
+            <li><a href="Grid/index.html">Grid Demo</a></li>
             <li><a href="gridLearning/index.html">Grid Learning</a></li>
             <li><a href="gridMasons/index (1).html">Grid Masons</a></li>
             <li><a href="gridMulti-column/index.html">Grid Multi Column</a></li>
+            <li><a href="/FlexBox/index.html">FlexBox</a></li>
         </ul>
     </nav>
+    <main>
+        <p>Selamat datang di perpustakaan desain web saya! Klik pada salah satu tautan di atas untuk mempelajari dan mengeksplorasi elemen-elemen desain web.</p>
+    </main>
+    <footer>
+        <p>© 2024 My WebDesign Library. All rights reserved.</p>
+    </footer>
 </body>
 </html>
