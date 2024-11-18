@@ -10,7 +10,7 @@ body {
     text-decoration: none;
     color: #fff;
   }
-  
+
   .grid-container {
     display: grid;
     grid-template-areas:
@@ -18,9 +18,9 @@ body {
       "menu main main"
       "menu main main"
       "footer footer footer";
-    grid-template-rows: 60px 1fr 1fr 40px;
+    grid-template-rows: 60px 1fr auto; /* Footer diatur agar berada di bawah */
     grid-template-columns: 200px 1fr;
-    height: 100vh;
+    min-height: 100vh; /* Pastikan tinggi minimal 100% viewport */
     overflow: hidden;
   }
   
@@ -32,7 +32,7 @@ body {
     align-items: center;
     padding: 0 20px;
     background-color: #1b2735;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
   .header__search {
@@ -54,7 +54,7 @@ body {
     grid-area: menu;
     background-color: #1b2735;
     padding: 20px 10px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
   }
   
   .sidenav__list {
@@ -72,7 +72,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
   .sidenav__list-item i {
@@ -81,7 +81,7 @@ body {
   
   .sidenav__list-item:hover {
     background-color: #405165;
-    transform: scale(1.05); /* Add hover effect */
+    transform: scale(1.05);
   }
   
   /* Main Content Styling */
@@ -89,7 +89,7 @@ body {
     grid-area: main;
     padding: 20px;
     background-color: #3c4a5b;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
   }
   
@@ -102,7 +102,7 @@ body {
   .main-header__heading {
     font-size: 24px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow for effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   }
   
   .main-overview {
@@ -117,13 +117,13 @@ body {
     padding: 10px;
     border-radius: 4px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
   .overviewcard:hover {
-    transform: translateY(-5px); /* Hover effect */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Shadow effect on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
   }
   
   .card {
@@ -131,13 +131,13 @@ body {
     padding: 20px;
     border-radius: 4px;
     margin-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
   .card:hover {
-    transform: translateY(-5px); /* Hover effect */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Shadow effect on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
   }
   
   /* Footer Styling */
@@ -148,7 +148,7 @@ body {
     align-items: center;
     background-color: #1b2735;
     padding: 0 20px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
   }
   
   .footer__copyright,
@@ -159,6 +159,6 @@ body {
   }
   
   .footer__signature:hover {
-    opacity: 1; /* Fade effect on hover */
+    opacity: 1;
   }
   
