@@ -1,0 +1,109 @@
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+a:hover {
+    color: #483d8b;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: linear-gradient(90deg, #6c63ff, #483d8b);
+    color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 1rem;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navbar a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #6c63ff;
+}
+
+/* Main Flexbox Section */
+.main-content {
+    padding: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    flex: 1 1 calc(20% - 1rem); /* Set each box to be 20% of the row */
+    max-width: 200px;
+    text-align: center;
+    padding: 1rem;
+    background: #6c63ff;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
